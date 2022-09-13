@@ -24,22 +24,68 @@
         <div class="container" id="nav-container">
           <nav class="navbar navbar-expand-lg fixed-top">
           <a class="navbar-brand" href="/">
-            <img src="/images/ev1.jpg" alt="MaxSyst">MaxSyst
+            <img src="/image/logo2.png" alt="MaxSyst" id="logo"> MaxSyst
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <a class="nav-link" href="/" id="home-menu">Home </a>
-                <a class="nav-link" href="/" id="about-menu">A empresa </a>
-                <a class="nav-link" href="/" id="services-menu">Serviços </a>
-                <a class="nav-link" href="/" id="team-menu">Equipe </a>
-                <a class="nav-link" href="/" id="portfolio-menu">Projetos </a>
-                <a class="nav-link" href="/" id="contact-menu">Contato </a>
+                <a class="nav-item nav-link" href="/" id="home-menu">Home </a>
+                <a class="nav-item nav-link" href="/pages/empresa" id="about-menu">A empresa </a>
+                <a class="nav-item nav-link" href="/pages/servicos" id="services-menu">Serviços </a>
+                <a class="nav-item nav-link" href="/pages/equipe" id="team-menu">Equipe </a>
+                <a class="nav-item nav-link" href="/" id="portfolio-menu">Projetos </a>
+                <a class="nav-item nav-link" href="/" id="contact-menu">Contato </a>
           </div>
         </nav>
         </div>
       </header>
+      <main>
+        <div class="container-fluid">
+          <div class="carousel slide" id="mainSlider" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+              <li data-target="#mainSlider" data-slide-to="1"></li>
+              <li data-target="#mainSlider" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" id="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/image/logo.png" class="d-block w-100" alt="MaxTEC">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>MaxTec Site</h3>
+                  <p>Conteudo da descrição do slide</p>
+                  <a href="#" class="main-btn">Ver os projetos</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/image/logo1.png" class="d-block w-100" alt="MaxTEC">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>MaxTec Site</h3>
+                  <p>Ingenieros altamento qualificados para lhe atender</p>
+                  <a href="#" class="main-btn">Ver os projetos</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/image/ev1.jpg" class="d-block w-100" alt="MaxTEC">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>MaxTec Site</h3>
+                  <p>Nossa equipe de desenvolvimento</p>
+                  <a href="#" class="main-btn">Ver os projetos</a>
+                </div>
+              </div>
+            </div>
+            <a href="#mainSlider" id="" class="carousel-control-prev" role="button" data-slide="prev" >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Preview </span>
+            </a>
+            <a href="#mainSlider" id="" class="carousel-control-next" role="button" data-slide="next" >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next </span>
+            </a>
+          </div>
+        </div>
+      </main>
 
       
         @yield('content')
@@ -55,6 +101,7 @@
         <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>

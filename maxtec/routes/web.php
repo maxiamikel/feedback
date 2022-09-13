@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\MaxtecController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [MaxtecController::class,'index']);
+Route::get('/pages/empresa', [MaxtecController::class,'about']);
+Route::get('/pages/servicos', [MaxtecController::class,'servico']);
+Route::get('/pages/equipe', [MaxtecController::class,'equipe']);

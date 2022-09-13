@@ -1,45 +1,203 @@
+/*All*/
+
 * {
-    margin: 0px;
-    padding: 0px;
+    font-family: 'Roboto', 'sans-serif';
 }
 
-body {
-    background-color: #FFF;
+.row {
+    margin: 0;
 }
 
-#container-principal {
-    background-color: #f1f1f1;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    width: 100%;
-    position: relative;
+.container {
+    padding: 60px 0;
 }
 
-#container-center {
-    background-color: #FFF;
-    padding: 10px;
-    width: 40%;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+p,
+li {
+    color: #444;
     font-size: 14px;
-    margin-left: 0px;
-    margin-right: 0px;
 }
 
-#container-right {
-    width: 29%;
-    background-color: #e1e1e1;
-    height: auto;
+.commun-btn {
+    background-color: #B0C4DE;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-#container-left {
-    width: 29%;
-    background-color: #e1e1e1;
+.commun-btn:hover {
+    text-decoration: none;
+    border: 1px solid #6495ED;
+}
+
+.commun-btn i {
+    color: rgb(206, 138, 21);
+}
+
+
+/*Navigation*/
+
+header,
+.navbar {
+    background-color: #6495ED;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+    height: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#navbarNav a {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+#navbarNav a:hover {
+    border-bottom: 2px solid #87CEEB;
+}
+
+
+/*Carousel*/
+
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+    height: 85vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 20%;
+}
+
+#mainSlider .carousel-caption h3 {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    color: rgb(206, 138, 21);
+}
+
+#mainSlider .carousel-caption p {
+    font: size 14px;
+    font-weight: 250;
+    margin-bottom: 100px;
+    color: #0c0c0b;
+}
+
+.main-btn {
+    background-color: #6495ED;
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    padding: 9px 10px;
+    border: 1px solid transparent;
+    transition: .15s;
+    border-radius: 23px;
+}
+
+.main-btn:hover {
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #6495ED;
+}
+
+
+/*Empresa/ about/ service/...*/
+
+#main-area-section {
+    margin: 0 0 100px 0;
+}
+
+.about-title-main {
+    margin: 0 0 50px 0;
+    color: #0c0c0b;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.about-title-main::after {
+    content: "";
+    border-top: solid 2px #0c0c0b;
+    width: 16%;
+    top: 42px;
+    position: absolute;
+    left: 42%;
+}
+
+.about-title {
+    color: #0c0c0b;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list .list-item {
+    line-height: 22px;
+}
+
+.list .list-item ion-icon {
+    color: #6495ED;
+    margin-right: 7px;
+}
+
+#service-box {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#service-box {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#service-box i {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#service-box h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#service-box p {
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 footer {
-    background-color: #f1f1f1;
+    background-color: #B0C4DE;
     position: fixed;
     bottom: 0px;
     padding: 20px;
