@@ -19,3 +19,5 @@ Route::get('/', [MaxtecController::class,'index']);
 Route::get('/pages/empresa', [MaxtecController::class,'about']);
 Route::get('/pages/servicos', [MaxtecController::class,'servico']);
 Route::get('/pages/equipe', [MaxtecController::class,'equipe']);
+Route::get('/pages/projeto', [MaxtecController::class,'projeto']);
+Route::get('/pages/contato', [MaxtecController::class,'contato']);

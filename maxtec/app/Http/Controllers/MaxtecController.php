@@ -21,4 +21,12 @@ class MaxtecController extends Controller
     public function equipe(){
         return view('pages.equipe');
     }
+
+    public function projeto(){
+        return view('pages.projeto');
+    }
+
+    public function contato(){
+        return view('pages.contato');
+    }
 }

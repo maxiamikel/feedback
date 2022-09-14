@@ -34,8 +34,9 @@
                 <a class="nav-item nav-link" href="/pages/empresa" id="about-menu">A empresa </a>
                 <a class="nav-item nav-link" href="/pages/servicos" id="services-menu">Serviços </a>
                 <a class="nav-item nav-link" href="/pages/equipe" id="team-menu">Equipe </a>
-                <a class="nav-item nav-link" href="/" id="portfolio-menu">Projetos </a>
-                <a class="nav-item nav-link" href="/" id="contact-menu">Contato </a>
+                <a class="nav-item nav-link" href="/pages/projeto" id="portfolio-menu">Projetos </a>
+                <a class="nav-item nav-link" href="/pages/contato" id="contact-menu">Contato </a>
+                <a class="nav-item nav-link" href="/pages/contato" id="contact-menu"><i class="fa-solid fa-right-to-bracket"></i> </a>
           </div>
         </nav>
         </div>
@@ -51,27 +52,21 @@
 
             <div class="carousel-inner" id="carousel-inner">
               <div class="carousel-item active">
-                <img src="/image/logo.png" class="d-block w-100" alt="MaxTEC">
+                <img src="/image/seo.png" class="d-block w-100" alt="MaxTEC">
                 <div class="carousel-caption d-none d-md-block">
-                  <h3>MaxTec Site</h3>
-                  <p>Conteudo da descrição do slide</p>
-                  <a href="#" class="main-btn">Ver os projetos</a>
+                  <h3>MaxSyst</h3>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="/image/logo1.png" class="d-block w-100" alt="MaxTEC">
+                <img src="/image/ecomerce.png" class="d-block w-100" alt="MaxTEC">
                 <div class="carousel-caption d-none d-md-block">
-                  <h3>MaxTec Site</h3>
-                  <p>Ingenieros altamento qualificados para lhe atender</p>
-                  <a href="#" class="main-btn">Ver os projetos</a>
+                  <h3>MaxSyst</h3>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="/image/ev1.jpg" class="d-block w-100" alt="MaxTEC">
+                <img src="/image/webdesign.jpg" class="d-block w-100" alt="MaxTEC">
                 <div class="carousel-caption d-none d-md-block">
-                  <h3>MaxTec Site</h3>
-                  <p>Nossa equipe de desenvolvimento</p>
-                  <a href="#" class="main-btn">Ver os projetos</a>
+                  <h3>MaxSyst</h3>
                 </div>
               </div>
             </div>
