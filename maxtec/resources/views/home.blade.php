@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaxiSoft, Software and Tecnology</title>
+    <title>Maxisotf, software and Tecnology</title>
     <!-- Fonte -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <!-- Estilos -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/main.style.css">
-    <!-- Scripts  -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/64e14fbeb3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
     <!-- Progress Bar -->
-    <script src="/js/progressbar.min.js"></script>
+    <script src="js/progressbar.min.js"></script>
     <!-- Parallax -->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
@@ -28,20 +28,19 @@
             <!-- add essa class -->
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <a class="navbar-brand" href="index.html">
-                    <img id="logo" src="img/logo.png" alt="MaxiSoft, Software and tecnology"> <span class="title1">Maxi</span><span class="title2">Soft </span>
+                    <span class="title1">Maxi</span><span class="title2">Soft</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="home-menu" href="#">Home</a>
-                        <a class="nav-item nav-link" id="about-menu" href="#">A empresa</a>
-                        <a class="nav-item nav-link" id="services-menu" href="#">Serviços</a>
-                        <a class="nav-item nav-link" id="team-menu" href="#">Time</a>
+                    <a class="nav-item nav-link" id="home-menu" href="#">Home</a>
+                        <a class="nav-item nav-link" id="about-menu" href="#">Quem somos</a>
+                        <a class="nav-item nav-link" id="services-menu" href="#">Nossos Servi&ccedil;os</a>
+                        <a class="nav-item nav-link" id="team-menu" href="#">A Equipe</a>
                         <a class="nav-item nav-link" id="portfolio-menu" href="#">Projetos</a>
                         <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
-                        <a class="nav-item nav-link"  href="/pages/contato"><i class="fa-solid fa-right-to-bracket"></i></a>
                     </div>
                 </div>
             </nav>
@@ -58,27 +57,27 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/ecomerce.png" class="d-block w-100" alt="Projetos de e-commerce">
+                        <img src="img/banner1.png" class="d-block w-100" alt="Projetos de e-commerce">
+
+                        <!-- tirar classe d-none -->
+
                         <div class="carousel-caption d-md-block">
                             <h2>Quer criar um e-commerce?</h2>
                             <p>Conte conosco, temos mais de 10 lojas no portf&oacute;lio.</p>
-                            <a href="#" class="main-btn">Ver portf&oacute;lio</a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/webdesign.jpg" class="d-block w-100" alt="Engenharia de software">
+                        <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de software">
                         <div class="carousel-caption d-md-block">
                             <h2>Est&aacute; querendo tirar o projeto do papel?</h2>
                             <p>Nossa equipe de engenharia de software est&aacute; pronta para lhe atender.</p>
-                            <a href="/pages/contato" class="main-btn">Entre em contato</a> 
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/seo.png" class="d-block w-100" alt="Manutenção em software">
+                        <img src="img/banner3.png" class="d-block w-100" alt="Manutenção em software">
                         <div class="carousel-caption d-md-block">
                             <h2>Est&aacute; buscando manuten&ccedil;&atilde;o no seu software?</h2>
                             <p>MaxiSoft conta com engenheiros altamente qualificados para resolver seu problema.</p>
-                            <a href="#" class="main-btn">Entre em contato</a>
                         </div>
                     </div>
                 </div>
@@ -96,23 +95,24 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="main-title">MaxiSoft, Software and Tecnology</h3>
+                            <h3 class="main-title">Maxisotf, software and Tecnology</h3>
                         </div>
                         <div class="col-md-6">
-                            <img class="img-fluid" src="img/agencia.jpg" alt="Agência hDC">
+                            <img class="img-fluid" src="img/empresa1.jpg" alt="Maxisotf, software and Tecnology">
                         </div>
                         <div class="col-md-6">
-                            <h3 class="about-title">Uma agência que pensa no futuro</h3>
-                            <p>Nossos projetos são adaptados ao cliente e seu propósito.</p>
-                            <p>Após a especificação do projetos os arquitetos de software definirão as melhores tecnologias para seu projeto.</p>
-                            <p>E nossos designers trabalharão na sua interface/layout para impulsionar o negócio.</p>
-                            <p>Veja outros diferenciais:</p>
+                            <h3 class="about-title">Uma empresa refer&ecirc;nciada em software</h3>
+                            <p>Nossos projetos s&atilde;o adaptados ao cliente e seu prop&oacute;sito.</p>
+                            <p>Ap&oacute;s a especifica&ccedil;&atilde;o do projetos os arquitetos de software definir&atilde;o as melhores tecnologias para seu projeto.</p>
+                            <p>Nossos designers trabalhar&atilde;o na sua layout para impulsionar o neg&oacute;cio.</p>
+                            <p>Nosso time de teste est&aacute; sempre realizando os testes para entregar um produto com mais qualidade.</p>
+                            <p>Veja outras qualificados:</p>
                             <ul id="about-list">
-                                <li><i class="fas fa-check"></i> Utilização de Machine Learning / AI</li>
                                 <li><i class="fas fa-check"></i> Layout responsivo para todos os dispositivos</li>
-                                <li><i class="fas fa-check"></i> Integração com diversos sistemas do mercado</li>
-                                <li><i class="fas fa-check"></i> Sistema de pagamento próprio</li>
-                                <li><i class="fas fa-check"></i> Desenvolvimento com metodologia ágil</li>
+                                <li><i class="fas fa-check"></i> Integra&ccedil;&atilde;o com diversos sistemas do mercado</li>
+                                <li><i class="fas fa-check"></i> Sistema independente</li>
+                                <li><i class="fas fa-check"></i> Desenvolvimento do produto conforme a necessidade do cliente</li>
+                                <li><i class="fas fa-check"></i> Desenvolvimento de prot&oacute;tipo para simular o produto.</li>
                             </ul>
                         </div>
                     </div>
@@ -128,32 +128,32 @@
                         <div class="col-md-4 service-box">
                             <i class="fas fa-mobile-alt"></i>
                             <h4>Aplicativos Nativos</h4>
-                            <p>Utilizamos o real poder dos dispositivos móveis construindo aplicativos nativos.</p>
+                            <p>Utilizamos o real poder dos dispositivos m&oacute;veis construindo aplicativos nativos.</p>
                         </div>
                         <div class="col-md-4 service-box">
                             <i class="fas fa-shopping-cart"></i>
                             <h4>E-commerces</h4>
-                            <p>Temos uma plataforma própria de e-commerce que se adapta a qualquer regra de negócio (B2C e B2B).</p>
+                            <p>Temos uma plataforma pr&uacute;pria de e-commerce que se adapta a qualquer regra de neg&uacute;cio.</p>
                         </div>
                         <div class="col-md-4 service-box">
                             <i class="fas fa-paint-brush"></i>
                             <h4>Design Criativo</h4>
-                            <p>Nossos designers são especializados em UI/UX e também possuem vasta experiência no mercado de software.</p>
+                            <p>Nossos designers são especializados em UI/UX e também possuem vasta experi&ecirc;ncia no mercado de software.</p>
                         </div>
                         <div class="col-md-4 service-box">
                             <i class="fab fa-google"></i>
                             <h4>Experts em SEO</h4>
-                            <p>Com nosso serviço de marketing seu site será melhor posicionado no Google e venderá mais.</p>
+                            <p>Com nosso servi&ccedil;o de marketing seu site será melhor posicionado no Google e vender&aacute; mais.</p>
                         </div>
                         <div class="col-md-4 service-box">
                             <i class="fas fa-hands-helping"></i>
                             <h4>Suporte 24/7</h4>
-                            <p>Você sempre terá alguem da equipe disponível para suporte, em diferentes plataformas. (chat, email, skype)</p>
+                            <p>Voc&ecirc; sempre ter&aacute; alguem da equipe dispon&iacute;vel para suporte, em diferentes plataformas.</p>
                         </div>
                         <div class="col-md-4 service-box">
                             <i class="fas fa-server"></i>
-                            <h4>Experiência em servidores</h4>
-                            <p>Garantimos uptime e também rápido tempo de resposta do seu site para o seu cliente.</p>
+                            <h4>Experi&ecirc;ncia em servidores</h4>
+                            <p>Garantimos uptime e também r&aacute;pido tempo de resposta do seu site para o seu cliente.</p>
                         </div>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
                         </div>
                         <div class="col-md-3 col-xs-6 circle-box">
                             <div id="circleD"></div>
-                            <p>Cafézinhos</p>
+                            <p>Caf&eacute;zinhos</p>
                         </div>
                     </div>
                 </div>
@@ -186,40 +186,40 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="main-title">Nosso time</h3>
+                            <h3 class="main-title">Nossa equipe</h3>
                         </div>
                         <div class="col-md-3">
                             <div class="card">
-                                <img src="/img/foto.jpg" class="card-img-top" alt="Imagem de Perfil 1">
+                                <img src="img/foto1.jpg" class="card-img-top" alt="maxisotf user perfil">
                                 <div class="card-body">
-                                    <h5 class="card-title">Jhon Doe</h5>
+                                    <h5 class="card-title">Amikel Maxi C</h5>
                                     <p class="card-text">Software Developer</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="card">
-                                <img src="/img/foto.jpg" class="card-img-top" alt="Imagem de Perfil 2">
+                                <img src="img/foto1.jpg" class="card-img-top" alt="maxisotf user perfil">
                                 <div class="card-body">
-                                    <h5 class="card-title">Maria Mariana</h5>
+                                    <h5 class="card-title">Myrlande Louissaint Maxi</h5>
                                     <p class="card-text">SEO Consultant</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="card">
-                                <img src="/img/foto.jpg" class="card-img-top" alt="Imagem de Perfil 3">
+                                <img src="img/foto1.jpg" class="card-img-top" alt="maxisotf user perfil">
                                 <div class="card-body">
-                                    <h5 class="card-title">Paul Baker</h5>
+                                    <h5 class="card-title">Amikel Maxi Celestin</h5>
                                     <p class="card-text">Project Manager</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="card">
-                                <img src="/img/foto.jpg" class="card-img-top" alt="Imagem de Perfil 4">
+                                <img src="img/foto1.jpg" class="card-img-top" alt="maxisotf user perfil">
                                 <div class="card-body">
-                                    <h5 class="card-title">Karina Katarina</h5>
+                                    <h5 class="card-title">J&eacute;ssica Louis</h5>
                                     <p class="card-text">UX/UI Designer</p>
                                 </div>
                             </div>
@@ -233,10 +233,10 @@
                     <div class="row">
                         <div class="col-md-6 apply-box" id="company-img"></div>
                         <div class="col-md-6 apply-box" id="pattern-img">
-                            <h4>Gosta de desafios?</h4>
-                            <p>Temos várias posições abertas, entre elas: Software Engineer, UI/UX Designer, Project Manager e mais.</p>
-                            <p>Clique no botão abaixo e confira os benefícios e as posições em aberto.</p>
-                            <p>Aqui você terá a chance de trabalhar com as melhores tecnologias e os profissionais mais capacitados.</p>
+                            <h4>Vem com a gente!!</h4>
+                            <p>Temos v&aacute;rias posi&ccedil;&otilde;es abertas, entre elas: Software Engineer, UI/UX Designer, Project Manager e mais.</p>
+                            <p>Clique no bot&atilde;o abaixo e confira os benef&iacute;cios e as posi&ccedil;&otilde;es em aberto.</p>
+                            <p>Aqui voc&ecirc; tem a chance de trabalhar com as melhores tecnologias e os profissionais mais capacitados.</p>
                             <a href="#" class="main-btn" id="apply-btn">Saiba Mais</a>
                         </div>
                     </div>
@@ -247,7 +247,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="main-title">Conheça nossos projetos</h3>
+                            <h3 class="main-title">Conhe&ccedil;a nossos projetos</h3>
                         </div>
                         <div class="col-md-12" id="filter-btn-box">
                             <button class="main-btn filter-btn active" id="all-btn">Todos</button>
@@ -256,22 +256,22 @@
                             <button class="main-btn filter-btn" id="seo-btn">SEO</button>
                         </div>
                         <div class="col-md-4 project-box dev">
-                            <img src="img/proj1.jpg" class="img-fluid" alt="Projeto 1">
+                            <img src="img/proj1.jpg" class="img-fluid" alt="maxisotf project foto">
                         </div>
                         <div class="col-md-4 project-box dsg">
-                            <img src="img/proj2.jpg" class="img-fluid" alt="Projeto 2">
+                            <img src="img/proj2.jpg" class="img-fluid" alt="maxisotf project foto">
                         </div>
                         <div class="col-md-4 project-box seo">
-                            <img src="img/proj3.jpg" class="img-fluid" alt="Projeto 3">
+                            <img src="img/proj3.jpg" class="img-fluid" alt="maxisotf project foto">
                         </div>
                         <div class="col-md-4 project-box dev">
-                            <img src="img/proj4.jpg" class="img-fluid" alt="Projeto 4">
+                            <img src="img/proj4.jpg" class="img-fluid" alt="maxisotf project foto">
                         </div>
                         <div class="col-md-4 project-box dsg">
-                            <img src="img/proj5.jpg" class="img-fluid" alt="Projeto 5">
+                            <img src="img/proj5.jpg" class="img-fluid" alt="maxisotf project foto">
                         </div>
                         <div class="col-md-4 project-box seo">
-                            <img src="img/proj6.jpg" class="img-fluid" alt="Projeto 6">
+                            <img src="img/proj6.jpg" class="img-fluid" alt="maxisotf project foto">
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@
             <div id="news-area">
                 <div class="container">
                     <div class="col-md-12">
-                        <h3 class="main-title">Fique por dentro das novidades</h3>
+                        <h3 class="main-title">noticias e ofertas</h3>
                     </div>
                     <p>Assine nossa lista de e-mails, e receba nossos conte&uacute;dos sobre desenvolvimento de software</p>
                     <form action="">
@@ -294,19 +294,19 @@
                 <div class="container">
                     <div class="row">
                         <p>Deseja fazer um or&ccedil;amento sem compromisso?</p>
-                        <button class="main-btn" id="call-btn">Or&ccedil;ar</button>
+                        <button class="main-btn" id="call-btn">Orç&ccedil;r</button>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <!-- Rodape -->
+    <!-- Rodapé -->
     <footer>
         <div id="contact-area">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="main-title">Entre em contato com a equipe</h3>
+                        <h3 class="main-title">Entre em contato com a gente</h3>
                     </div>
                     <div class="col-md-4 contact-box">
                         <i class="fas fa-phone"></i>
@@ -319,7 +319,7 @@
                     </div>
                     <div class="col-md-4 contact-box">
                         <i class="fas fa-map-marker-alt"></i>
-                        <p><span class="contact-tile">Visite a nossa l&oacute;ja:</span> Rua Ver. Joaquim P. de Castro, 230</p>
+                        <p><span class="contact-tile">Visite a empresa:</span> Rua Ver. Joaquim P. de Castro, 230</p>
                     </div>
                     <div class="col-md-6" id="msg-box">
                         <p>Ou nos deixe uma mensagem:</p>
@@ -346,7 +346,7 @@
         </div>
     </footer>
     <!-- Scripts do projeto -->
-    <script src="/js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

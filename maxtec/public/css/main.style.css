@@ -56,18 +56,20 @@ header,
     border-bottom: 3px solid #FFF;
 }
 
-
-/*title logo*/
-
 .title2 {
     color: #0101DF;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-style: italic;
+    text-decoration: overline;
 }
 
 .title1 {
-    color: #FFF;
-    font-size: 1.6rem;
-    font-family: 'Times New Roman', Times, serif;
+    color: #65DAF9;
+    font-size: 2rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: 5px;
+    text-decoration: overline;
 }
 
 
@@ -92,10 +94,10 @@ header,
 }
 
 #mainSlider .carousel-caption p {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 300;
     margin-bottom: 100px;
-    color: #006400;
+    color: #FFF;
 }
 
 .main-btn {
